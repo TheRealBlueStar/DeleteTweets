@@ -1,6 +1,7 @@
 var authorization = "Bearer ***"; // replace by authorization value
 var ua = navigator.userAgentData.brands.map(brand => `"${brand.brand}";v="${brand.version}"`).join(', ');
-var client_tid = "***"; // replace by X-Client-Transaction-Id value
+var client_tid = "
+Scj0W1SuzAoFYcGueoxTmIFxYhYTxti/upcMWyyXI+rtSmfh88qnojv+0kF3vorKvcRErUuwcNiVL4EzjolPP/Sc5r4fSg"; // replace by X-Client-Transaction-Id value
 var client_uuid = "***"; // replace by X-Client-Uuid value
 var csrf_token = getCookie("ct0");
 var random_resource = "uYU5M2i12UhDvDTzN6hZPg";
